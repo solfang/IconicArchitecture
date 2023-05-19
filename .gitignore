@@ -1,0 +1,5 @@
+**/.idea/
+*.pyc
+Analysis2/results/
+api_key.py
+Analysis/output/
