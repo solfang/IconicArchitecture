@@ -10,7 +10,7 @@ If something doesn't work for you, please create an issue.
 ## Setup: getting the data
 1. Download the [data](https://drive.google.com/file/d/1hPFtlyjCfInvKOSjnTvPxulOCznDC10v/view?usp=share_link) and  unzip it one folder layer above this repository. The resulting folder should be:
 
-[...]/some folder/
+- [...]/some folder/
 	- [this repo]/
 	- data/
 	
