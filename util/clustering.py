@@ -12,7 +12,7 @@ from matplotlib.pyplot import figure, imshow, axis
 from matplotlib.image import imread
 import pandas as pd
 import numpy as np
-import plotting as pl
+import util.plotting as pl
 import os
 
 def show_images_row(fpths, title=None):
