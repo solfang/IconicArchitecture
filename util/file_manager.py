@@ -36,7 +36,7 @@ def read_data_cascade(csv_file_path, feather_file_path, converters={}):
     if not os.path.exists(feather_file_path):
         df = pd.read_csv(csv_file_path)
         # do not use in-built pandas converters param as it's not vectorized
-        for column, func in converters:
+        for column, func in converters.items():
             df[column] = df[column].apply(func)
         print("Creating feather file")
         df.to_feather(feather_file_path)
